@@ -1,0 +1,45 @@
+/* CSS Reset */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video { border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; margin:0; padding:0; }  body { line-height:1; }  article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block; }  nav ul { list-style:none; }  blockquote,q { quotes:none; }  blockquote:before,blockquote:after,q:before,q:after { content:none; }  a { font-size:100%; vertical-align:baseline; background:transparent; margin:0; padding:0; }  ins { background-color:#ff9; color:#000; text-decoration:none; }  mark { background-color:#ff9; color:#000; font-style:italic; font-weight:700; }  del { text-decoration:line-through; }  abbr[title],dfn[title] { border-bottom:1px dotted; cursor:help; }  table { border-collapse:collapse; border-spacing:0; }  hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0; }  input,select { vertical-align:middle; }
+/* End CSS Reset */
+
+html, body {
+	height:100%;
+    font-family:Arial;
+}
+
+#floater {
+	position: relative;
+	float: left;
+	height: 50%;
+	margin-bottom: -200px;
+}
+
+#content {
+	position: relative;
+	clear: left;
+	height: 400px;
+	width: 80%;
+	max-width: 800px;
+	min-width: 400px;
+	margin:0 auto;
+}
+
+#content h1 {
+	display: block;
+	font: bold 22px/22px Arial;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#content textarea {
+	display: block;
+	margin: 0 auto;
+	height: 300px;
+	width:100%;
+}
+
+#buttons {
+    padding-top:15px;
+    text-align: center;
+    font: normal 12px/12px Arial;
+}
